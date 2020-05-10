@@ -1,0 +1,24 @@
+{
+  "name": "@jasonhk/minecraft-json-schemas",
+  "description": "",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Jason Kwok <github@jasonhk.email> (https://jasonhk.net)",
+  "homepage": "https://github.com/JasonHK/minecraft-json-schemas#readme",
+  "keywords": [
+    "minecraft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonHK/minecraft-json-schemas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonHK/minecraft-json-schemas/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {}
+}
