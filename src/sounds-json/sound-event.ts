@@ -22,7 +22,7 @@ export interface SoundEvent
      * The category of this sound event. Used to determine which volume option in
      * the in-game options should be used.
      * 
-     * **REMARKS:** `"voice"` was added since 16w02a (snapshot for 1.9).
+     * **REMARKS:** `"voice"` was added since 1.9 (16w02a).
      * 
      * **REMARKS:** This field was removed since 1.10.
      * 
@@ -33,6 +33,8 @@ export interface SoundEvent
     /**
      * The identifier of a text, which will be translated as the subtitle of this
      * sound event if "Show Subtitles" was enabled in-game.
+     * 
+     * **REMARKS:** This field was added since 1.9 (15w43b).
      */
     subtitle?: string;
 

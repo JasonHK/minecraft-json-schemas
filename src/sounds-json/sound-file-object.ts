@@ -37,6 +37,8 @@ export interface SoundFileObject
      * Whether this sound should be loaded when loading the pack instead of when the
      * sound is played.
      * 
+     * **REMARKS:** This field was added since 1.13 (18w10a).
+     * 
      * @default false
      */
     preload?: boolean;
