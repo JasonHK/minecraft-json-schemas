@@ -1,7 +1,7 @@
 "use strict";
 
-import { SoundFilePath } from "./sound-file-path";
-import { SoundFileObject } from "./sound-file-object";
+import type { SoundFileObject } from "./sound-file-object";
+import type { SoundFilePath } from "./sound-file-path";
 
 /**
  * Represents the sound file a sound event uses.

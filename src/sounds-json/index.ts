@@ -1,6 +1,6 @@
 "use strict";
 
-import { SoundEvent } from "./sound-event";
+import type { SoundEvent } from "./sound-event";
 
 /**
  * Represents a "sounds.json" file. This file was used by the sound system in
@@ -14,3 +14,10 @@ export interface SoundsJson
      */
     [soundEvent: string]: SoundEvent;
 }
+
+export type { SoundCategory } from "./sound-category";
+export type { SoundEvent } from "./sound-event";
+export type { SoundFile } from "./sound-file";
+export type { SoundFileObject } from "./sound-file-object";
+export type { SoundFilePath } from "./sound-file-path";
+export type { SoundEntryType } from "./sound-file-type";

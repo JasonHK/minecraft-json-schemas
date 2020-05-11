@@ -1,9 +1,9 @@
 "use strict";
 
-import { integer } from "../_common/integer";
+import type { integer } from "../_common/integer";
 
-import { SoundFilePath } from "./sound-file-path";
-import { SoundEntryType } from "./sound-file-type";
+import type { SoundFilePath } from "./sound-file-path";
+import type { SoundEntryType } from "./sound-file-type";
 
 /**
  * Represents the sound file a sound event uses, along with additional settings
